@@ -1,0 +1,58 @@
+p {
+    font-size: x-large;
+    text-align: center;
+}
+span {
+    display: inline-block;
+    border: solid black;
+    text-align: right;
+    position: relative;
+    background-color:violet;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: medium;
+    color: black;
+    font-weight: 700;  
+    margin: 5px;
+    width: 30%;
+    align-items: right 20px ;
+}
+
+table td {
+    padding: 75px;
+    width: 100%;
+    text-align: left;
+}
+.zz {
+    text-align: center;
+    background-color: greenyellow;
+
+}
+.xx {
+    text-align: center;
+    background-color: blueviolet;
+
+}
+.xz {
+    text-align: center;
+    background-color: coral;
+}
+@media screen and (max-width:767px) {
+    span {
+        display: table-header-group;
+        border: solid black;
+        margin: 20px;
+        padding: 50px;
+        border-spacing: 5%;
+        width: 10px;
+    }
+    
+}
+@media screen and (max-width:680) {
+   
+   span {
+       display: inline-table;
+   }
+    
+
+    
+}
